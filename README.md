@@ -1,5 +1,7 @@
 # Game Fox Tamagotchi
 
+Simple Tamagotchi game built using parcel
+
 ## Requirments
 
 - The game starts in an initialized state. The user must press the center game to get started.
