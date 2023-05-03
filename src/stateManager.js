@@ -1,5 +1,5 @@
-import { modFox, modScene, togglePoopBag, writeModal } from "../ui";
-import { RAIN_CHANCE, SCENES, DAY_LENGTH, NIGHT_LENGTH, getNextDieTime, getNextHungerTime, getNextPoopTime } from "../constants"
+import { modFox, modScene, togglePoopBag, writeModal } from "./ui";
+import { RAIN_CHANCE, SCENES, DAY_LENGTH, NIGHT_LENGTH, getNextDieTime, getNextHungerTime, getNextPoopTime } from "./constants"
 
 class StateManager {
 
