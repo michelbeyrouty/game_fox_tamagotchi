@@ -6,7 +6,7 @@ const toggleHighlighted = (icon, show) => {
     .classList.toggle("highlighted", show);
 }
 
-export default function initButtons(handleUserAction) {
+export default function initButtons(stateManager) {
   let selectedIcon = 0;
   document.querySelector(".buttons").addEventListener("click", buttonClick);
 
@@ -20,7 +20,7 @@ export default function initButtons(handleUserAction) {
       selectedIcon = (1 + selectedIcon) % ICONS.length;
       toggleHighlighted(selectedIcon, true);
     } else {
-      handleUserAction(ICONS[selectedIcon]);
+      stateManager.handleUserAction(ICONS[selectedIcon]);
     }
   }
 }
