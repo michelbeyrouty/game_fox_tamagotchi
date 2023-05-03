@@ -1,8 +1,18 @@
 # Game Fox Tamagotchi
 
-Simple Tamagotchi game built using parcel and vanilla JS/Html
+Simple Tamagotchi game built using parcel, docker and vanilla JS/Html
 
-## Requirments
+## Run locally
+
+1. `npm install`
+2. `npm run dev`
+
+## Run using docker
+
+1. `docker build . -t foxgame`
+2. `docker run -d -p 3000:1234 foxgame`
+
+## Requirements
 
 - The game starts in an initialized state. The user must press the center game to get started.
 - Users can switch between the three icons on the bottom using the left and right button. To press one of the icons, they will click the middle button. Users cannot directly click the icons.
