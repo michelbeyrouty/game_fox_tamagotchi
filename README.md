@@ -1,6 +1,6 @@
 # Game Fox Tamagotchi
 
-Simple Tamagotchi game built using parcel
+Simple Tamagotchi game built using parcel and vanilla JS/Html
 
 ## Requirments
 
