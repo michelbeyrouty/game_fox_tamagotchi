@@ -1,5 +1,5 @@
 export const ICONS = ["fish", "poop", "weather"];
-export const TICK_RATE = 1000;
+export const TICK_RATE = 500;
 export const RAIN_CHANCE = 0.4;
 export const SCENES = ["day", "rain"];
 export const DAY_LENGTH = 20;
