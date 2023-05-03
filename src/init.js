@@ -1,4 +1,4 @@
-import StateManager from "./stateManager"
+import StateManager from "./classes/stateManager"
 import initButtons from "./bottons";
 import { TICK_RATE } from "./constants"
 
